@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+.hidden {
+    display: none;
+}
+
+p{
+    color: #fff;
+    background: #000;
+    text-align: center;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+#sitecontainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 920px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#mainheader{
+    margin-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+#logo{
+    width: 200px;
+    float: left;
+}
+
+#mainnav{
+    width: 500px;
+    float: right;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hero {
+    margin-top: 50px;
+}
+
+
+#productinfo{
+    margin-top: 40px;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.productdesc{
+    float: left;
+    width: 200px;
+    margin-right: 40px;
+}
+
+.productdesclast{
+    width: 200px;
+    float: right;
+}
+
+#mainfooter{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+#footernav{
+    float: left;
+    width: 500px;
+}
+#copyright{
+    float: right;
+    width: 310px;
+}
+
+#stories{
+margin-left: 50px;
+column-gap: 50px;
+}
+
+#stories p {
+    float: right;
+    margin-right: 50px;
+    align-items: top;
+    text-align: left;
+    width: 400px;
+}
+
+.hisarticle {
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+#floatImgleft{
+    float: left;
+}
+
+
