@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+.site{
+    max-width: 1024;
+}
 .hidden {
     display: none;
 }
@@ -7,7 +9,6 @@
 p{
     color: #fff;
     background: #000;
-    text-align: center;
     margin: 0;
 }
 
@@ -21,80 +22,104 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 920px;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 1024px;
 }
-
+/* Header/Main Nav*/
 #mainheader{
-    margin-top: 40px;
-    padding-bottom: 40px;
+    margin-top: 50px;
     overflow: hidden;
 }
 
 #logo{
-    width: 200px;
+    width: 400px;
     float: left;
+    height: 100px;
+    background-color: #000;
 }
 
 #mainnav{
-    width: 500px;
+    width: 624px;
     float: right;
+    height: 100px;
+    background-color: #000;
+    
 }
 
 ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
 }
-
-.hero {
-    margin-top: 50px;
-}
-
-
-#productinfo{
-    margin-top: 40px;
-    overflow: hidden;
-    padding-bottom: 40px;
-}
-
-.productdesc{
-    float: left;
-    width: 200px;
-    margin-right: 40px;
-}
-
-.productdesclast{
-    width: 200px;
-    float: right;
-}
-
+/* Footer */
 #mainfooter{
-    margin-top: 40px;
-    margin-bottom: 40px;
     overflow: hidden;
 }
 
 #footernav{
     float: left;
-    width: 500px;
+    width: 557px;
+    height: 100px;
+    background-color: #000;
 }
 #copyright{
     float: right;
-    width: 310px;
+    width: 467px;
+    height: 100px;
+    background-color: #000;
 }
 
+/* Hero */
+.hero {
+    margin-top: 50px;
+}
+
+/* Products/Promos Page*/
+#products{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#products h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* About page*/
+#stories h2{
+    margin-top: 50px;
+    width: 150px;
+    height: 30px;
+    background-color: #000;
+    margin-bottom: 10px;
+
+}
+
+#stories h3{
+    width: 150px;
+    height: 30px;
+    background-color: #000;
+    margin-bottom: 10px;
+}
+
+#stories h4{
+    width: 100px;
+    height: 30px;
+    background-color: #000;
+    margin-bottom: 10px;
+}
 #stories{
 margin-left: 50px;
-column-gap: 50px;
+margin-right: 50px;
 }
 
 #stories p {
     float: right;
-    margin-right: 50px;
     text-align: left;
     width: 400px;
+    height: 310px;
 }
 
 .hisarticle {
