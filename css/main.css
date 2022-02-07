@@ -93,7 +93,6 @@ column-gap: 50px;
 #stories p {
     float: right;
     margin-right: 50px;
-    align-items: top;
     text-align: left;
     width: 400px;
 }
