@@ -1,7 +1,5 @@
 @charset "UTF-8";
-.site{
-    max-width: 1024;
-}
+
 .hidden {
     display: none;
 }
